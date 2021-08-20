@@ -1,0 +1,169 @@
+@media (max-width: 1300px) {
+    .left__section-img, .middle__second {
+        display: none;
+    }
+}
+
+@media (max-width: 1200px) {
+    .adress-section p, .autograph-section p {
+        padding-left: 140px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .intro__sec img {
+        padding-top: 70px;
+    }
+    .adress-section p, .autograph-section p {
+        padding-left: 95px;
+    }
+}
+
+@media (max-width: 768px) {
+    .intro__sec img {
+        padding-top: 40px;
+    }
+    .oliva__sec {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 0px 0px;
+        grid-template-areas:
+            "oliva__pic oliva__pic"
+            "oliva__text oliva__text";
+    }
+    .oliva__sub {
+        display: none;
+    }
+
+    .la-boriosa {
+        flex-direction: column;
+        justify-content: space-between
+    }
+    .left__section {
+        width: auto;
+        min-height: 412px;
+        order: 2;
+    }
+    .right__section {
+        width: auto;
+        min-height: 412px;
+        order: 1;
+    }
+    .retro__section {
+        flex-direction: column;
+    }
+    .retro__left, .retro__middle {
+        width: auto;
+    }
+    .retro__left {
+        min-height: 412px;
+    }
+    .retro__right {
+        display: none;
+    }
+    .slider {
+        margin-top: 45px;
+    }
+    .intro__sec, .social__section {
+        min-height: 412px;
+    }
+    .social__section img {
+        padding-top: 65px;
+    }
+    .gallery__section {
+        min-height: 412px;
+        flex-direction: column;
+    }
+    .gallery__left {
+        display: none;
+    }
+    .gallery__middle {
+        display: none;
+    }
+    .gallery__item {
+        width: auto;
+    }
+    .gallery__right-top {
+        min-height: 412px;
+    }
+    .gallery__right-bottom {
+        display: none;
+    }
+    .adress-section p, .autograph-section p {
+        padding-left: 55px;
+    }
+    .social-media a {
+        padding: 0px 10px 0px 10px;
+    }
+}
+@media (max-width:720px) {
+    .menu__section {
+        display: none;
+    }
+}
+
+@media (max-width:575px) {
+    .intro__sec, .social__section {
+        min-height: 500px;
+    }
+    .intro__sec img {
+        padding-top: 50px;
+    }
+    .intro__sec p {
+        text-align: justify;
+        max-width: 77%;
+    }
+
+    .slider {
+        margin-top: 20px;
+    }
+    .newsseller__section img {
+        padding-top: 85px;
+    }
+    .subscribe__form {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .text-form {
+        margin-right: 0;
+    }
+    .accept-button {
+        width: 399px;
+        margin-top: 12px;
+    }
+    .footer {
+        align-items: center;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .adress-section, .social-media, .autograph-section {
+        min-width: auto;
+    }
+    .adress-section {
+        order: 2;
+    }
+    .adress-section p {
+        padding-left: 0;
+        text-align: center;
+    }
+    .social-media {
+        order: 1;
+    }
+    .social-media img {
+        width: 60px;
+    }
+    .autograph-section {
+        order: 3;
+    }
+    .autograph-section p {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 415px) {
+    .subscribe__form {
+        max-width: 290px;
+    }
+}
